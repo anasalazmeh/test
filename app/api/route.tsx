@@ -44,3 +44,4 @@ export async function POST(
     return new NextResponse("Interal error", { status: 500 });
   }
 }
+export const dynamic = "force-dynamic";
